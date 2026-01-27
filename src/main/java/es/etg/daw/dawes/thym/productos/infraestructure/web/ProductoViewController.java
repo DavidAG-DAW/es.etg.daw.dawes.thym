@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import es.etg.daw.dawes.thym.productos.application.command.CreateProductoCommand;
 import es.etg.daw.dawes.thym.productos.application.service.CreateProductoService;
 import es.etg.daw.dawes.thym.productos.application.service.FindProductoService;
-import es.etg.daw.dawes.thym.productos.domain.model.CategoriaId;
 import es.etg.daw.dawes.thym.productos.domain.model.Producto;
 import es.etg.daw.dawes.thym.productos.infraestructure.web.constants.WebRoutes;
 import es.etg.daw.dawes.thym.productos.infraestructure.web.enums.ModelAttribute;
@@ -50,7 +49,7 @@ public class ProductoViewController {
             @RequestParam(defaultValue = "1") int categoriaId,
             Model model){
             
-            createProductoService.createProducto(new CreateProductoCommand(nombre, precio, new CategoriaId(categoriaId)));
+            createProductoService.createProducto(new CreateProductoCommand(nombre, precio, categoriaId));
         
         return ThymView.PRODUCT_CREATED.getPath();
     }

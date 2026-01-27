@@ -17,6 +17,6 @@ public class ProductoMapper {
     }
 
     public static Producto toDomain(ProductoResponse p){
-        return new Producto(p.getId(), p.getNombre(), p.getPrecio());
+        return new Producto(p.getId(), p.getNombre(), p.getPrecio(), p.getCategoriaId());
     }
 }

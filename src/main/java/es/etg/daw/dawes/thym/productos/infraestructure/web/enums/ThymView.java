@@ -1,12 +1,12 @@
 package es.etg.daw.dawes.thym.productos.infraestructure.web.enums;
 
-
 /**
  * Contiene el listado de plantillas Thymeleaf
  */
 public enum ThymView {
 
     PRODUCT_LIST("productos-lista"),
+    PRODUCT_LIST_PDF("pdf/productos-lista"),
     PRODUCT_FORM("productos-formulario"),
     PRODUCT_CREATED("productos-creado"),
     PRODUCT_DETAIL("productos-detalle"),
@@ -22,3 +22,4 @@ public enum ThymView {
         return this.path;
     } 
 }
+

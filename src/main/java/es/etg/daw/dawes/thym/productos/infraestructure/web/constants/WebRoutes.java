@@ -5,7 +5,8 @@ package es.etg.daw.dawes.thym.productos.infraestructure.web.constants;
  */
 public interface WebRoutes {
     public static final String PRODUCTOS_BASE = "/web/productos";
+    public static final String PRODUCTOS_PDF = "/web/productos/pdf";
     public static final String PRODUCTOS_NUEVO = "/web/productos/nuevo";
-
 }
+
 
