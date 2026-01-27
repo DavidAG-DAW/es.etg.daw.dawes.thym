@@ -1,8 +1,6 @@
 package es.etg.daw.dawes.thym.productos.application.usecase;
 
 
-import java.time.LocalDateTime;
-
 import es.etg.daw.dawes.thym.productos.application.command.CreateProductoCommand;
 import es.etg.daw.dawes.thym.productos.domain.model.Producto;
 import es.etg.daw.dawes.thym.productos.domain.repository.ProductoRepository;
@@ -18,7 +16,7 @@ public class CreateProductoUseCase {
         Producto producto = Producto.builder() // Se puede usar comando.id y no getId por usar @Accessors(fluent = true) la clase CreateProductoCommand 
                                     .nombre(comando.nombre())
                                     .precio(comando.precio())
-                                    .createdAt(LocalDateTime.now()).build();
+                                    .build();
         return productoRepository.save(producto);
 
     }
