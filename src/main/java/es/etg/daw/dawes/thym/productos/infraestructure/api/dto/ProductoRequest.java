@@ -2,16 +2,13 @@ package es.etg.daw.dawes.thym.productos.infraestructure.api.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
-/**
- * Datos devueltos por el servicio
- */
 @Data
 @AllArgsConstructor
-public class ProductoResponse {
-    private Integer id;
+@NoArgsConstructor
+public class ProductoRequest{
     private String nombre;
     private Double precio;
     private Integer categoria;
 }
-

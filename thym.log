@@ -1,0 +1,830 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36mes.etg.daw.dawes:thym[0;1m >------------------------[m
+[[1;34mINFO[m] [1mBuilding thym 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.5.0:clean[m [1m(default-clean)[m @ [36mthym[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/debian/Documents/servidor/thym/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mspring-boot-maven-plugin:4.0.2:run[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mthym[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:resources[m [1m(default-resources)[m @ [36mthym[0;1m ---[m
+[[1;34mINFO[m] Copying 1 resource from src/main/resources to target/classes
+[[1;34mINFO[m] Copying 3 resources from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.14.1:compile[m [1m(default-compile)[m @ [36mthym[0;1m ---[m
+[[1;34mINFO[m] Recompiling the module because of [1mchanged source code[m.
+[[1;34mINFO[m] Compiling 22 source files with javac [debug parameters release 21] to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:testResources[m [1m(default-testResources)[m @ [36mthym[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/debian/Documents/servidor/thym/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.14.1:testCompile[m [1m(default-testCompile)[m @ [36mthym[0;1m ---[m
+[[1;34mINFO[m] Recompiling the module because of [1mchanged dependency[m.
+[[1;34mINFO[m] Compiling 1 source file with javac [debug parameters release 21] to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mspring-boot-maven-plugin:4.0.2:run[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mthym[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:4.0.2:run[m [1m(default-cli)[m @ [36mthym[0;1m ---[m
+[[1;34mINFO[m] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.2)
+
+2026-01-28T09:56:33.919-06:00  INFO 41605 --- [thymeleaf] [           main] es.etg.daw.dawes.thym.ThymApplication    : Starting ThymApplication using Java 21.0.10 with PID 41605 (/home/debian/Documents/servidor/thym/target/classes started by debian in /home/debian/Documents/servidor/thym)
+2026-01-28T09:56:33.922-06:00  INFO 41605 --- [thymeleaf] [           main] es.etg.daw.dawes.thym.ThymApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-01-28T09:56:33.923-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.boot.SpringApplication               : Loading source class es.etg.daw.dawes.thym.ThymApplication
+2026-01-28T09:56:34.032-06:00 DEBUG 41605 --- [thymeleaf] [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext@1e8b7643
+2026-01-28T09:56:34.071-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2026-01-28T09:56:34.092-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2026-01-28T09:56:34.202-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [/home/debian/Documents/servidor/thym/target/classes/es/etg/daw/dawes/thym/productos/application/service/CreateProductoService.class]
+2026-01-28T09:56:34.203-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [/home/debian/Documents/servidor/thym/target/classes/es/etg/daw/dawes/thym/productos/application/service/FindProductoService.class]
+2026-01-28T09:56:34.204-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [/home/debian/Documents/servidor/thym/target/classes/es/etg/daw/dawes/thym/productos/application/usecase/CreateProductoUseCase.class]
+2026-01-28T09:56:34.205-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [/home/debian/Documents/servidor/thym/target/classes/es/etg/daw/dawes/thym/productos/application/usecase/FindProductoUseCase.class]
+2026-01-28T09:56:34.214-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [/home/debian/Documents/servidor/thym/target/classes/es/etg/daw/dawes/thym/productos/infraestructure/api/RestClientProductoAdapter.class]
+2026-01-28T09:56:34.220-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [/home/debian/Documents/servidor/thym/target/classes/es/etg/daw/dawes/thym/productos/infraestructure/config/RestClientConfig.class]
+2026-01-28T09:56:34.236-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [/home/debian/Documents/servidor/thym/target/classes/es/etg/daw/dawes/thym/productos/infraestructure/web/ProductoViewController.class]
+2026-01-28T09:56:34.706-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+2026-01-28T09:56:34.714-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2026-01-28T09:56:34.716-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'bootstrapExecutorAliasPostProcessor'
+2026-01-28T09:56:34.716-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'preserveErrorControllerTargetClassPostProcessor'
+2026-01-28T09:56:34.717-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'forceAutoProxyCreatorToUseClassProxying'
+2026-01-28T09:56:34.718-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2026-01-28T09:56:34.729-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2026-01-28T09:56:34.731-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2026-01-28T09:56:34.733-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2026-01-28T09:56:34.734-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+2026-01-28T09:56:34.736-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2026-01-28T09:56:34.749-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.aop.framework.autoproxy.defaultProxyConfig'
+2026-01-28T09:56:34.754-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'webServerFactoryCustomizerBeanPostProcessor'
+2026-01-28T09:56:34.755-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'errorPageRegistrarBeanPostProcessor'
+2026-01-28T09:56:34.758-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'tomcatServletWebServerFactory'
+2026-01-28T09:56:34.760-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.tomcat.autoconfigure.servlet.TomcatServletWebServerAutoConfiguration'
+2026-01-28T09:56:34.767-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'server.tomcat-org.springframework.boot.tomcat.autoconfigure.TomcatServerProperties'
+2026-01-28T09:56:34.770-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+2026-01-28T09:56:34.786-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.tomcat.autoconfigure.servlet.TomcatServletWebServerAutoConfiguration' via constructor to bean named 'server.tomcat-org.springframework.boot.tomcat.autoconfigure.TomcatServerProperties'
+2026-01-28T09:56:34.820-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'servletWebServerFactoryCustomizer'
+2026-01-28T09:56:34.821-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.web.server.autoconfigure.servlet.ServletWebServerConfiguration'
+2026-01-28T09:56:34.822-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'server-org.springframework.boot.web.server.autoconfigure.ServerProperties'
+2026-01-28T09:56:34.831-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'servletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.web.server.autoconfigure.ServerProperties'
+2026-01-28T09:56:34.833-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'sslBundleRegistry'
+2026-01-28T09:56:34.834-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration'
+2026-01-28T09:56:34.835-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.ssl-org.springframework.boot.autoconfigure.ssl.SslProperties'
+2026-01-28T09:56:34.837-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration' via constructor to bean named 'org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext@1e8b7643'
+2026-01-28T09:56:34.838-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration' via constructor to bean named 'spring.ssl-org.springframework.boot.autoconfigure.ssl.SslProperties'
+2026-01-28T09:56:34.842-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'sslPropertiesSslBundleRegistrar'
+2026-01-28T09:56:34.842-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'fileWatcher'
+2026-01-28T09:56:34.846-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'sslPropertiesSslBundleRegistrar' via factory method to bean named 'fileWatcher'
+2026-01-28T09:56:34.850-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'webSocketWebServerCustomizer'
+2026-01-28T09:56:34.851-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.tomcat.autoconfigure.TomcatWebServerConfiguration$TomcatWebSocketConfiguration'
+2026-01-28T09:56:34.852-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'tomcatWebServerFactoryCustomizer'
+2026-01-28T09:56:34.852-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.tomcat.autoconfigure.TomcatWebServerConfiguration'
+2026-01-28T09:56:34.854-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+2026-01-28T09:56:34.856-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'environment'
+2026-01-28T09:56:34.856-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.web.server.autoconfigure.ServerProperties'
+2026-01-28T09:56:34.856-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'server.tomcat-org.springframework.boot.tomcat.autoconfigure.TomcatServerProperties'
+2026-01-28T09:56:34.856-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+2026-01-28T09:56:34.858-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'tomcatServletWebServerFactoryCustomizer'
+2026-01-28T09:56:34.859-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'tomcatServletWebServerFactoryCustomizer' via factory method to bean named 'server.tomcat-org.springframework.boot.tomcat.autoconfigure.TomcatServerProperties'
+2026-01-28T09:56:34.965-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'errorPageCustomizer'
+2026-01-28T09:56:34.969-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.webmvc.autoconfigure.error.ErrorMvcAutoConfiguration'
+2026-01-28T09:56:34.973-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.webmvc.autoconfigure.error.ErrorMvcAutoConfiguration' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+2026-01-28T09:56:34.992-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'dispatcherServletRegistration'
+2026-01-28T09:56:34.992-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.webmvc.autoconfigure.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration'
+2026-01-28T09:56:34.995-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'dispatcherServlet'
+2026-01-28T09:56:34.995-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.webmvc.autoconfigure.DispatcherServletAutoConfiguration$DispatcherServletConfiguration'
+2026-01-28T09:56:34.997-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.mvc-org.springframework.boot.webmvc.autoconfigure.WebMvcProperties'
+2026-01-28T09:56:35.007-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'dispatcherServlet' via factory method to bean named 'spring.mvc-org.springframework.boot.webmvc.autoconfigure.WebMvcProperties'
+2026-01-28T09:56:35.020-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'dispatcherServlet'
+2026-01-28T09:56:35.020-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'spring.mvc-org.springframework.boot.webmvc.autoconfigure.WebMvcProperties'
+2026-01-28T09:56:35.024-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'multipartConfigElement'
+2026-01-28T09:56:35.024-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.servlet.autoconfigure.MultipartAutoConfiguration'
+2026-01-28T09:56:35.024-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.servlet.multipart-org.springframework.boot.servlet.autoconfigure.MultipartProperties'
+2026-01-28T09:56:35.028-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.servlet.autoconfigure.MultipartAutoConfiguration' via constructor to bean named 'spring.servlet.multipart-org.springframework.boot.servlet.autoconfigure.MultipartProperties'
+2026-01-28T09:56:35.033-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'errorPageCustomizer' via factory method to bean named 'dispatcherServletRegistration'
+2026-01-28T09:56:35.097-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.t.s.TomcatServletWebServerFactory  : Code archive: /home/debian/.m2/repository/org/springframework/boot/spring-boot-web-server/4.0.2/spring-boot-web-server-4.0.2.jar
+2026-01-28T09:56:35.098-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.t.s.TomcatServletWebServerFactory  : Code archive: /home/debian/.m2/repository/org/springframework/boot/spring-boot-web-server/4.0.2/spring-boot-web-server-4.0.2.jar
+2026-01-28T09:56:35.098-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.t.s.TomcatServletWebServerFactory  : None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2026-01-28T09:56:35.117-06:00  INFO 41605 --- [thymeleaf] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-01-28T09:56:35.128-06:00  INFO 41605 --- [thymeleaf] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-28T09:56:35.129-06:00  INFO 41605 --- [thymeleaf] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-28T09:56:35.173-06:00 DEBUG 41605 --- [thymeleaf] [           main] b.w.c.s.WebApplicationContextInitializer : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2026-01-28T09:56:35.174-06:00  INFO 41605 --- [thymeleaf] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1142 ms
+2026-01-28T09:56:35.180-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'requestContextFilter'
+2026-01-28T09:56:35.183-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'formContentFilter'
+2026-01-28T09:56:35.184-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.webmvc.autoconfigure.WebMvcAutoConfiguration'
+2026-01-28T09:56:35.188-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'characterEncodingFilter'
+2026-01-28T09:56:35.189-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.servlet.autoconfigure.HttpEncodingAutoConfiguration'
+2026-01-28T09:56:35.190-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.servlet.encoding-org.springframework.boot.servlet.autoconfigure.ServletEncodingProperties'
+2026-01-28T09:56:35.193-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'characterEncodingFilter' via factory method to bean named 'spring.servlet.encoding-org.springframework.boot.servlet.autoconfigure.ServletEncodingProperties'
+2026-01-28T09:56:35.197-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2026-01-28T09:56:35.198-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2026-01-28T09:56:35.213-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.s.f.OrderedRequestContextFilter    : Filter 'requestContextFilter' configured for use
+2026-01-28T09:56:35.216-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.s.f.OrderedCharacterEncodingFilter : Filter 'characterEncodingFilter' configured for use
+2026-01-28T09:56:35.216-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.s.filter.OrderedFormContentFilter  : Filter 'formContentFilter' configured for use
+2026-01-28T09:56:35.225-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'applicationTaskExecutor'
+2026-01-28T09:56:35.226-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$TaskExecutorConfiguration'
+2026-01-28T09:56:35.227-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'threadPoolTaskExecutorBuilder'
+2026-01-28T09:56:35.228-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$ThreadPoolTaskExecutorBuilderConfiguration'
+2026-01-28T09:56:35.228-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
+2026-01-28T09:56:35.233-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'threadPoolTaskExecutorBuilder' via factory method to bean named 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
+2026-01-28T09:56:35.237-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'applicationTaskExecutor' via factory method to bean named 'threadPoolTaskExecutorBuilder'
+2026-01-28T09:56:35.241-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2026-01-28T09:56:35.244-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'thymApplication'
+2026-01-28T09:56:35.246-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'createProductoService'
+2026-01-28T09:56:35.246-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'createProductoUseCase'
+2026-01-28T09:56:35.248-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'restClientProductoAdapter'
+2026-01-28T09:56:35.249-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'productoRestClient'
+2026-01-28T09:56:35.250-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'restClientConfig'
+2026-01-28T09:56:35.255-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.c.e.PropertySourcesPropertyResolver  : Found key 'restclient.productos.baseurl' in PropertySource 'environmentProperties' with value of type String
+2026-01-28T09:56:35.409-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'restClientProductoAdapter' via constructor to bean named 'productoRestClient'
+2026-01-28T09:56:35.410-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'createProductoUseCase' via constructor to bean named 'restClientProductoAdapter'
+2026-01-28T09:56:35.412-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'createProductoService' via constructor to bean named 'createProductoUseCase'
+2026-01-28T09:56:35.412-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'findProductoService'
+2026-01-28T09:56:35.413-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'findProductoUseCase'
+2026-01-28T09:56:35.415-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'findProductoUseCase' via constructor to bean named 'restClientProductoAdapter'
+2026-01-28T09:56:35.415-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'findProductoService' via constructor to bean named 'findProductoUseCase'
+2026-01-28T09:56:35.416-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'productoViewController'
+2026-01-28T09:56:35.418-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'productoViewController' via constructor to bean named 'findProductoService'
+2026-01-28T09:56:35.418-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'productoViewController' via constructor to bean named 'createProductoService'
+2026-01-28T09:56:35.419-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+2026-01-28T09:56:35.421-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration'
+2026-01-28T09:56:35.422-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter'
+2026-01-28T09:56:35.428-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.webmvc.autoconfigure.DispatcherServletAutoConfiguration'
+2026-01-28T09:56:35.429-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$SimpleAsyncTaskExecutorBuilderConfiguration'
+2026-01-28T09:56:35.432-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$SimpleAsyncTaskExecutorBuilderConfiguration' via constructor to bean named 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
+2026-01-28T09:56:35.433-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'simpleAsyncTaskExecutorBuilder'
+2026-01-28T09:56:35.435-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$AsyncConfigurerConfiguration'
+2026-01-28T09:56:35.436-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'applicationTaskExecutorAsyncConfigurer'
+2026-01-28T09:56:35.437-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'applicationTaskExecutorAsyncConfigurer' via factory method to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@256f8274'
+2026-01-28T09:56:35.438-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutorConfigurations$BootstrapExecutorConfiguration'
+2026-01-28T09:56:35.439-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration'
+2026-01-28T09:56:35.442-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.webmvc.autoconfigure.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration'
+2026-01-28T09:56:35.447-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'error'
+2026-01-28T09:56:35.448-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'beanNameViewResolver'
+2026-01-28T09:56:35.449-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.webmvc.autoconfigure.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration'
+2026-01-28T09:56:35.452-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.webmvc.autoconfigure.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration' via constructor to bean named 'org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext@1e8b7643'
+2026-01-28T09:56:35.452-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.webmvc.autoconfigure.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+2026-01-28T09:56:35.452-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'conventionErrorViewResolver'
+2026-01-28T09:56:35.455-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'errorAttributes'
+2026-01-28T09:56:35.457-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'basicErrorController'
+2026-01-28T09:56:35.459-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'basicErrorController' via factory method to bean named 'errorAttributes'
+2026-01-28T09:56:35.477-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.webmvc.autoconfigure.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+2026-01-28T09:56:35.482-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.webmvc.autoconfigure.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'spring.mvc-org.springframework.boot.webmvc.autoconfigure.WebMvcProperties'
+2026-01-28T09:56:35.482-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.webmvc.autoconfigure.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+2026-01-28T09:56:35.483-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.webmvc.autoconfigure.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@256f8274'
+2026-01-28T09:56:35.488-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.webmvc.autoconfigure.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter'
+2026-01-28T09:56:35.489-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.webmvc.autoconfigure.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+2026-01-28T09:56:35.491-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.webmvc.autoconfigure.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.mvc-org.springframework.boot.webmvc.autoconfigure.WebMvcProperties'
+2026-01-28T09:56:35.492-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.webmvc.autoconfigure.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@256f8274'
+2026-01-28T09:56:35.499-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'welcomePageHandlerMapping'
+2026-01-28T09:56:35.500-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'mvcConversionService'
+2026-01-28T09:56:35.503-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+2026-01-28T09:56:35.507-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext@1e8b7643'
+2026-01-28T09:56:35.509-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'mvcConversionService'
+2026-01-28T09:56:35.509-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2026-01-28T09:56:35.516-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'welcomePageNotAcceptableHandlerMapping'
+2026-01-28T09:56:35.520-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'welcomePageNotAcceptableHandlerMapping' via factory method to bean named 'org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext@1e8b7643'
+2026-01-28T09:56:35.520-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'welcomePageNotAcceptableHandlerMapping' via factory method to bean named 'mvcConversionService'
+2026-01-28T09:56:35.520-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'welcomePageNotAcceptableHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2026-01-28T09:56:35.521-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'localeResolver'
+2026-01-28T09:56:35.523-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'flashMapManager'
+2026-01-28T09:56:35.527-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'viewNameTranslator'
+2026-01-28T09:56:35.528-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'mvcValidator'
+2026-01-28T09:56:35.529-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+2026-01-28T09:56:35.531-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2026-01-28T09:56:35.532-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'stringHttpMessageConvertersCustomizer'
+2026-01-28T09:56:35.533-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.http.converter.autoconfigure.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration'
+2026-01-28T09:56:35.535-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.http.converters-org.springframework.boot.http.converter.autoconfigure.HttpMessageConvertersProperties'
+2026-01-28T09:56:35.538-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'stringHttpMessageConvertersCustomizer' via factory method to bean named 'spring.http.converters-org.springframework.boot.http.converter.autoconfigure.HttpMessageConvertersProperties'
+2026-01-28T09:56:35.540-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'jacksonJsonHttpMessageConvertersCustomizer'
+2026-01-28T09:56:35.540-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.http.converter.autoconfigure.JacksonHttpMessageConvertersConfiguration$JacksonJsonHttpMessageConverterConfiguration'
+2026-01-28T09:56:35.541-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'jacksonJsonMapper'
+2026-01-28T09:56:35.542-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.jackson.autoconfigure.JacksonAutoConfiguration'
+2026-01-28T09:56:35.544-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'problemDetailJsonMapperBuilderCustomizer'
+2026-01-28T09:56:35.544-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.jackson.autoconfigure.JacksonAutoConfiguration$JsonProblemDetailsConfiguration'
+2026-01-28T09:56:35.547-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'standardJsonMapperBuilderCustomizer'
+2026-01-28T09:56:35.548-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.jackson.autoconfigure.JacksonAutoConfiguration$JacksonJsonMapperBuilderCustomizerConfiguration'
+2026-01-28T09:56:35.549-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.jackson-org.springframework.boot.jackson.autoconfigure.JacksonProperties'
+2026-01-28T09:56:35.557-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'standardJsonMapperBuilderCustomizer' via factory method to bean named 'spring.jackson-org.springframework.boot.jackson.autoconfigure.JacksonProperties'
+2026-01-28T09:56:35.558-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'jacksonMixinModule'
+2026-01-28T09:56:35.559-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.jackson.autoconfigure.JacksonAutoConfiguration$JacksonMixinConfiguration'
+2026-01-28T09:56:35.560-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'jacksonMixinModuleEntries'
+2026-01-28T09:56:35.561-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'jacksonMixinModuleEntries' via factory method to bean named 'org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext@1e8b7643'
+2026-01-28T09:56:35.562-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.a.AutoConfigurationPackages        : @EnableAutoConfiguration was declared on a class in the package 'es.etg.daw.dawes.thym'. Automatic @Repository and @Entity scanning is enabled.
+2026-01-28T09:56:35.578-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'jacksonMixinModule' via factory method to bean named 'org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext@1e8b7643'
+2026-01-28T09:56:35.579-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'jacksonMixinModule' via factory method to bean named 'jacksonMixinModuleEntries'
+2026-01-28T09:56:35.581-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'jsonComponentModule'
+2026-01-28T09:56:35.588-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'jsonMapperBuilder' via factory method to bean named 'problemDetailJsonMapperBuilderCustomizer'
+2026-01-28T09:56:35.588-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'jsonMapperBuilder' via factory method to bean named 'standardJsonMapperBuilderCustomizer'
+2026-01-28T09:56:35.593-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'jacksonJsonMapper' via factory method to bean named 'jsonMapperBuilder'
+2026-01-28T09:56:35.603-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'jacksonJsonHttpMessageConvertersCustomizer' via factory method to bean named 'jacksonJsonMapper'
+2026-01-28T09:56:35.604-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'serverConvertersCustomizer'
+2026-01-28T09:56:35.604-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.http.converter.autoconfigure.HttpMessageConvertersAutoConfiguration'
+2026-01-28T09:56:35.610-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'mvcApiVersionStrategy'
+2026-01-28T09:56:35.618-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+2026-01-28T09:56:35.620-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcApiVersionStrategy'
+2026-01-28T09:56:35.620-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcConversionService'
+2026-01-28T09:56:35.621-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2026-01-28T09:56:35.659-06:00 DEBUG 41605 --- [thymeleaf] [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2026-01-28T09:56:35.660-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'mvcPatternParser'
+2026-01-28T09:56:35.661-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'mvcUrlPathHelper'
+2026-01-28T09:56:35.662-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'mvcPathMatcher'
+2026-01-28T09:56:35.663-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'viewControllerHandlerMapping'
+2026-01-28T09:56:35.664-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcConversionService'
+2026-01-28T09:56:35.665-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2026-01-28T09:56:35.665-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'beanNameHandlerMapping'
+2026-01-28T09:56:35.667-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcConversionService'
+2026-01-28T09:56:35.667-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2026-01-28T09:56:35.672-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'routerFunctionMapping'
+2026-01-28T09:56:35.674-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcConversionService'
+2026-01-28T09:56:35.674-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2026-01-28T09:56:35.675-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcApiVersionStrategy'
+2026-01-28T09:56:35.677-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'resourceHandlerMapping'
+2026-01-28T09:56:35.678-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+2026-01-28T09:56:35.678-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcConversionService'
+2026-01-28T09:56:35.678-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+2026-01-28T09:56:35.688-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-01-28T09:56:35.689-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'defaultServletHandlerMapping'
+2026-01-28T09:56:35.690-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'requestMappingHandlerAdapter'
+2026-01-28T09:56:35.695-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcContentNegotiationManager'
+2026-01-28T09:56:35.696-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcConversionService'
+2026-01-28T09:56:35.696-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcValidator'
+2026-01-28T09:56:35.716-06:00 DEBUG 41605 --- [thymeleaf] [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-01-28T09:56:35.730-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'mvcViewResolver'
+2026-01-28T09:56:35.731-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'mvcViewResolver' via factory method to bean named 'mvcContentNegotiationManager'
+2026-01-28T09:56:35.733-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'defaultViewResolver'
+2026-01-28T09:56:35.740-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'viewResolver'
+2026-01-28T09:56:35.741-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'viewResolver' via factory method to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@256f8274'
+2026-01-28T09:56:35.742-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'viewResolver'
+2026-01-28T09:56:35.745-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'thymeleafViewResolver'
+2026-01-28T09:56:35.745-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.thymeleaf.autoconfigure.ThymeleafAutoConfiguration$ThymeleafWebMvcConfiguration$ThymeleafViewResolverConfiguration'
+2026-01-28T09:56:35.746-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.thymeleaf-org.springframework.boot.thymeleaf.autoconfigure.ThymeleafProperties'
+2026-01-28T09:56:35.750-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'templateEngine'
+2026-01-28T09:56:35.751-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.thymeleaf.autoconfigure.TemplateEngineConfigurations$DefaultTemplateEngineConfiguration'
+2026-01-28T09:56:35.753-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'templateEngine' via factory method to bean named 'spring.thymeleaf-org.springframework.boot.thymeleaf.autoconfigure.ThymeleafProperties'
+2026-01-28T09:56:35.761-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'defaultTemplateResolver'
+2026-01-28T09:56:35.766-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.thymeleaf.autoconfigure.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration'
+2026-01-28T09:56:35.769-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.thymeleaf.autoconfigure.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration' via constructor to bean named 'spring.thymeleaf-org.springframework.boot.thymeleaf.autoconfigure.ThymeleafProperties'
+2026-01-28T09:56:35.770-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.thymeleaf.autoconfigure.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration' via constructor to bean named 'org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext@1e8b7643'
+2026-01-28T09:56:35.780-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'thymeleafViewResolver' via factory method to bean named 'spring.thymeleaf-org.springframework.boot.thymeleaf.autoconfigure.ThymeleafProperties'
+2026-01-28T09:56:35.784-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'thymeleafViewResolver' via factory method to bean named 'templateEngine'
+2026-01-28T09:56:35.797-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'handlerFunctionAdapter'
+2026-01-28T09:56:35.809-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2026-01-28T09:56:35.811-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'mvcConversionService'
+2026-01-28T09:56:35.811-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'requestMappingHandlerAdapter'
+2026-01-28T09:56:35.812-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'httpRequestHandlerAdapter'
+2026-01-28T09:56:35.812-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'simpleControllerHandlerAdapter'
+2026-01-28T09:56:35.813-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'handlerExceptionResolver'
+2026-01-28T09:56:35.819-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'handlerExceptionResolver' via factory method to bean named 'mvcContentNegotiationManager'
+2026-01-28T09:56:35.822-06:00 DEBUG 41605 --- [thymeleaf] [           main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-01-28T09:56:35.829-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$ClassProxyingConfiguration'
+2026-01-28T09:56:35.833-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration'
+2026-01-28T09:56:35.837-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration'
+2026-01-28T09:56:35.837-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'applicationAvailability'
+2026-01-28T09:56:35.842-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration'
+2026-01-28T09:56:35.844-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration'
+2026-01-28T09:56:35.844-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'lifecycleProcessor'
+2026-01-28T09:56:35.844-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties'
+2026-01-28T09:56:35.848-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'lifecycleProcessor' via factory method to bean named 'spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties'
+2026-01-28T09:56:35.854-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration'
+2026-01-28T09:56:35.861-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties'
+2026-01-28T09:56:35.862-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration' via constructor to bean named 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties'
+2026-01-28T09:56:35.862-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$ThreadPoolTaskSchedulerBuilderConfiguration'
+2026-01-28T09:56:35.862-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'threadPoolTaskSchedulerBuilder'
+2026-01-28T09:56:35.862-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties'
+2026-01-28T09:56:35.867-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'threadPoolTaskSchedulerBuilder' via factory method to bean named 'spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties'
+2026-01-28T09:56:35.870-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$SimpleAsyncTaskSchedulerBuilderConfiguration'
+2026-01-28T09:56:35.877-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.task.TaskSchedulingConfigurations$SimpleAsyncTaskSchedulerBuilderConfiguration' via constructor to bean named 'spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties'
+2026-01-28T09:56:35.878-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'simpleAsyncTaskSchedulerBuilder'
+2026-01-28T09:56:35.882-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration'
+2026-01-28T09:56:35.883-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.http.converter.autoconfigure.JacksonHttpMessageConvertersConfiguration'
+2026-01-28T09:56:35.889-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.http.converter.autoconfigure.Jackson2HttpMessageConvertersConfiguration'
+2026-01-28T09:56:35.900-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'clientConvertersCustomizer'
+2026-01-28T09:56:35.901-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'multipartResolver'
+2026-01-28T09:56:35.902-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.thymeleaf.autoconfigure.ThymeleafAutoConfiguration$ThymeleafWebMvcConfiguration'
+2026-01-28T09:56:35.913-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.thymeleaf.autoconfigure.ThymeleafAutoConfiguration'
+2026-01-28T09:56:35.925-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase -2147483647
+2026-01-28T09:56:35.925-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.c.support.DefaultLifecycleProcessor  : Successfully started bean 'springBootLoggingLifecycle'
+2026-01-28T09:56:35.925-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 1073741823
+2026-01-28T09:56:35.925-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147481599
+2026-01-28T09:56:35.937-06:00  INFO 41605 --- [thymeleaf] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-01-28T09:56:35.937-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.c.support.DefaultLifecycleProcessor  : Successfully started bean 'webServerStartStop'
+2026-01-28T09:56:35.937-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147482623
+2026-01-28T09:56:35.937-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.c.support.DefaultLifecycleProcessor  : Successfully started bean 'webServerGracefulShutdown'
+2026-01-28T09:56:35.940-06:00 DEBUG 41605 --- [thymeleaf] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+
+============================
+CONDITIONS EVALUATION REPORT
+============================
+
+
+Positive matches:
+-----------------
+
+   AopAutoConfiguration matched:
+      - @ConditionalOnBooleanProperty (spring.aop.auto=true) matched (OnPropertyCondition)
+
+   AopAutoConfiguration.ClassProxyingConfiguration matched:
+      - @ConditionalOnMissingClass did not find unwanted class 'org.aspectj.weaver.Advice' (OnClassCondition)
+      - @ConditionalOnBooleanProperty (spring.aop.proxy-target-class=true) matched (OnPropertyCondition)
+
+   ApplicationAvailabilityAutoConfiguration#applicationAvailability matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.availability.ApplicationAvailability; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DispatcherServletAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.web.servlet.DispatcherServlet' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletConfiguration matched:
+      - @ConditionalOnClass found required class 'jakarta.servlet.ServletRegistration' (OnClassCondition)
+      - Default DispatcherServlet did not find dispatcher servlet beans (DispatcherServletAutoConfiguration.DefaultDispatcherServletCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration matched:
+      - @ConditionalOnClass found required class 'jakarta.servlet.ServletRegistration' (OnClassCondition)
+      - DispatcherServlet Registration did not find servlet registration bean (DispatcherServletAutoConfiguration.DispatcherServletRegistrationCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration#dispatcherServletRegistration matched:
+      - @ConditionalOnBean (names: dispatcherServlet types: org.springframework.web.servlet.DispatcherServlet; SearchStrategy: all) found bean 'dispatcherServlet' (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'jakarta.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+
+   ErrorMvcAutoConfiguration#basicErrorController matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.webmvc.error.ErrorController; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration#errorAttributes matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.webmvc.error.ErrorAttributes; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration.DefaultErrorViewResolverConfiguration#conventionErrorViewResolver matched:
+      - @ConditionalOnBean (types: org.springframework.web.servlet.DispatcherServlet; SearchStrategy: all) found bean 'dispatcherServlet'; @ConditionalOnMissingBean (types: org.springframework.boot.webmvc.autoconfigure.error.ErrorViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration matched:
+      - @ConditionalOnBooleanProperty (spring.web.error.whitelabel.enabled=true) matched (OnPropertyCondition)
+      - ErrorTemplate Missing did not find error template view (ErrorMvcAutoConfiguration.ErrorTemplateMissingCondition)
+
+   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration#beanNameViewResolver matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.BeanNameViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration#defaultErrorView matched:
+      - @ConditionalOnMissingBean (names: error; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   HttpEncodingAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.web.filter.CharacterEncodingFilter' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnBooleanProperty (spring.servlet.encoding.enabled=true) matched (OnPropertyCondition)
+
+   HttpEncodingAutoConfiguration#characterEncodingFilter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.filter.CharacterEncodingFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   HttpMessageConvertersAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.converter.HttpMessageConverter' (OnClassCondition)
+      - NoneNestedConditions 0 matched 1 did not; NestedCondition on HttpMessageConvertersAutoConfiguration.NotReactiveWebApplicationCondition.ReactiveWebApplication did not find reactive web application classes (HttpMessageConvertersAutoConfiguration.NotReactiveWebApplicationCondition)
+
+   HttpMessageConvertersAutoConfiguration.StringHttpMessageConverterConfiguration#stringHttpMessageConvertersCustomizer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.http.converter.StringHttpMessageConverter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'tools.jackson.databind.json.JsonMapper' (OnClassCondition)
+
+   JacksonAutoConfiguration#jacksonJsonMapper matched:
+      - @ConditionalOnMissingBean (types: tools.jackson.databind.json.JsonMapper; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonAutoConfiguration#jsonMapperBuilder matched:
+      - @ConditionalOnMissingBean (types: tools.jackson.databind.json.JsonMapper$Builder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonAutoConfiguration.JsonProblemDetailsConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.ProblemDetail' (OnClassCondition)
+
+   JacksonHttpMessageConvertersConfiguration.JacksonJsonHttpMessageConverterConfiguration matched:
+      - @ConditionalOnClass found required class 'tools.jackson.databind.json.JsonMapper' (OnClassCondition)
+      - @ConditionalOnProperty (spring.http.converters.preferred-json-mapper=jackson) matched (OnPropertyCondition)
+      - @ConditionalOnBean (types: tools.jackson.databind.json.JsonMapper; SearchStrategy: all) found bean 'jacksonJsonMapper' (OnBeanCondition)
+
+   JacksonHttpMessageConvertersConfiguration.JacksonJsonHttpMessageConverterConfiguration#jacksonJsonHttpMessageConvertersCustomizer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.http.converter.json.JacksonJsonHttpMessageConverter ignored: org.springframework.hateoas.server.mvc.TypeConstrainedJacksonJsonHttpMessageConverter,org.springframework.data.rest.webmvc.alps.AlpsJacksonJsonHttpMessageConverter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   LifecycleAutoConfiguration#defaultLifecycleProcessor matched:
+      - @ConditionalOnMissingBean (names: lifecycleProcessor; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   MultipartAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'jakarta.servlet.Servlet', 'org.springframework.web.multipart.support.StandardServletMultipartResolver', 'jakarta.servlet.MultipartConfigElement' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnBooleanProperty (spring.servlet.multipart.enabled=true) matched (OnPropertyCondition)
+
+   MultipartAutoConfiguration#multipartConfigElement matched:
+      - @ConditionalOnMissingBean (types: jakarta.servlet.MultipartConfigElement; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   MultipartAutoConfiguration#multipartResolver matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.multipart.MultipartResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   PropertyPlaceholderAutoConfiguration#propertySourcesPlaceholderConfigurer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.context.support.PropertySourcesPlaceholderConfigurer; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   SslAutoConfiguration#sslBundleRegistry matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.ssl.SslBundleRegistry,org.springframework.boot.ssl.SslBundles; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TaskExecutionAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor' (OnClassCondition)
+
+   TaskExecutorConfigurations.AsyncConfigurerConfiguration matched:
+      - @ConditionalOnMissingBean (types: org.springframework.scheduling.annotation.AsyncConfigurer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TaskExecutorConfigurations.SimpleAsyncTaskExecutorBuilderConfiguration#simpleAsyncTaskExecutorBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.task.SimpleAsyncTaskExecutorBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+      - @ConditionalOnThreading found PLATFORM (OnThreadingCondition)
+
+   TaskExecutorConfigurations.TaskExecutorConfiguration matched:
+      - AnyNestedCondition 1 matched 1 did not; NestedCondition on TaskExecutorConfigurations.OnExecutorCondition.ModelCondition @ConditionalOnProperty (spring.task.execution.mode=force) did not find property 'spring.task.execution.mode'; NestedCondition on TaskExecutorConfigurations.OnExecutorCondition.ExecutorBeanCondition @ConditionalOnMissingBean (types: java.util.concurrent.Executor; SearchStrategy: all) did not find any beans (TaskExecutorConfigurations.OnExecutorCondition)
+
+   TaskExecutorConfigurations.TaskExecutorConfiguration#applicationTaskExecutor matched:
+      - @ConditionalOnThreading found PLATFORM (OnThreadingCondition)
+
+   TaskExecutorConfigurations.ThreadPoolTaskExecutorBuilderConfiguration#threadPoolTaskExecutorBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.task.ThreadPoolTaskExecutorBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TaskSchedulingAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler' (OnClassCondition)
+
+   TaskSchedulingConfigurations.SimpleAsyncTaskSchedulerBuilderConfiguration#simpleAsyncTaskSchedulerBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.task.SimpleAsyncTaskSchedulerBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+      - @ConditionalOnThreading found PLATFORM (OnThreadingCondition)
+
+   TaskSchedulingConfigurations.ThreadPoolTaskSchedulerBuilderConfiguration#threadPoolTaskSchedulerBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.task.ThreadPoolTaskSchedulerBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TemplateEngineConfigurations.DefaultTemplateEngineConfiguration#templateEngine matched:
+      - @ConditionalOnMissingBean (types: org.thymeleaf.spring6.ISpringTemplateEngine; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ThymeleafAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.thymeleaf.templatemode.TemplateMode', 'org.thymeleaf.spring6.SpringTemplateEngine' (OnClassCondition)
+
+   ThymeleafAutoConfiguration.DefaultTemplateResolverConfiguration matched:
+      - @ConditionalOnMissingBean (names: defaultTemplateResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ThymeleafAutoConfiguration.ThymeleafWebMvcConfiguration matched:
+      - found 'session' scope (OnWebApplicationCondition)
+
+   ThymeleafAutoConfiguration.ThymeleafWebMvcConfiguration.ThymeleafViewResolverConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.web.servlet.view.AbstractCachingViewResolver' (OnClassCondition)
+
+   ThymeleafAutoConfiguration.ThymeleafWebMvcConfiguration.ThymeleafViewResolverConfiguration#thymeleafViewResolver matched:
+      - @ConditionalOnMissingBean (names: thymeleafViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TomcatServletWebServerAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'jakarta.servlet.ServletRequest', 'org.apache.catalina.startup.Tomcat', 'org.apache.coyote.UpgradeProtocol', 'org.springframework.boot.tomcat.servlet.TomcatServletWebServerFactory' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+
+   TomcatServletWebServerAutoConfiguration#tomcatServletWebServerFactory matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.web.server.servlet.ServletWebServerFactory; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   TomcatWebServerConfiguration matched:
+      - @ConditionalOnWarDeployment the application is not deployed as a WAR file. (OnWarDeploymentCondition)
+
+   TomcatWebServerConfiguration.TomcatWebSocketConfiguration matched:
+      - @ConditionalOnClass found required class 'org.apache.tomcat.websocket.server.WsSci' (OnClassCondition)
+
+   WebMvcAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'jakarta.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration#formContentFilter matched:
+      - @ConditionalOnBooleanProperty (spring.mvc.formcontent.filter.enabled=true) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.web.filter.FormContentFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.EnableWebMvcConfiguration#flashMapManager matched:
+      - @ConditionalOnMissingBean (names: flashMapManager; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.EnableWebMvcConfiguration#localeResolver matched:
+      - @ConditionalOnMissingBean (names: localeResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.EnableWebMvcConfiguration#viewNameTranslator matched:
+      - @ConditionalOnMissingBean (names: viewNameTranslator; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#defaultViewResolver matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.InternalResourceViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#requestContextFilter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.context.request.RequestContextListener,org.springframework.web.filter.RequestContextFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#viewResolver matched:
+      - @ConditionalOnBean (types: org.springframework.web.servlet.ViewResolver; SearchStrategy: all) found beans 'defaultViewResolver', 'beanNameViewResolver', 'mvcViewResolver'; @ConditionalOnMissingBean (names: viewResolver types: org.springframework.web.servlet.view.ContentNegotiatingViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   AopAutoConfiguration.AspectJAutoProxyingConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.aspectj.weaver.Advice' (OnClassCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletConfiguration#multipartResolver:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.web.multipart.MultipartResolver; SearchStrategy: all) did not find any beans of type org.springframework.web.multipart.MultipartResolver (OnBeanCondition)
+
+   GsonHttpMessageConvertersConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.google.gson.Gson' (OnClassCondition)
+
+   Jackson2HttpMessageConvertersConfiguration.MappingJackson2HttpMessageConverterConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.fasterxml.jackson.databind.ObjectMapper' (OnClassCondition)
+
+   Jackson2HttpMessageConvertersConfiguration.MappingJackson2XmlHttpMessageConverterConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'tools.jackson.dataformat.xml.XmlMapper' (OnClassCondition)
+
+   JacksonAutoConfiguration.CborConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'tools.jackson.dataformat.cbor.CBORMapper' (OnClassCondition)
+
+   JacksonAutoConfiguration.XmlConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'tools.jackson.dataformat.xml.XmlMapper' (OnClassCondition)
+
+   JacksonHttpMessageConvertersConfiguration.JacksonXmlHttpMessageConverterConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'tools.jackson.dataformat.xml.XmlMapper' (OnClassCondition)
+
+   JmxAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBooleanProperty (spring.jmx.enabled=true) did not find property 'spring.jmx.enabled' (OnPropertyCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.jmx.export.MBeanExporter' (OnClassCondition)
+
+   JsonbHttpMessageConvertersConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'jakarta.json.bind.Jsonb' (OnClassCondition)
+
+   KotlinSerializationHttpMessageConvertersConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'kotlinx.serialization.Serializable', 'kotlinx.serialization.json.Json' (OnClassCondition)
+
+   MessageSourceAutoConfiguration:
+      Did not match:
+         - ResourceBundle did not find bundle with basename messages (MessageSourceAutoConfiguration.ResourceBundleCondition)
+
+   ProjectInfoAutoConfiguration#buildProperties:
+      Did not match:
+         - @ConditionalOnResource did not find resource '${spring.info.build.location:classpath:META-INF/build-info.properties}' (OnResourceCondition)
+
+   ProjectInfoAutoConfiguration#gitProperties:
+      Did not match:
+         - GitResource did not find git info at classpath:git.properties (ProjectInfoAutoConfiguration.GitResourceAvailableCondition)
+
+   ServletHttpExchangesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBean did not find required type 'org.springframework.boot.actuate.web.exchanges.HttpExchangeRepository' (OnBeanCondition)
+
+   ServletManagementContextAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointProperties' (OnClassCondition)
+
+   ServletMappingsAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.boot.actuate.autoconfigure.endpoint.condition.ConditionalOnAvailableEndpoint' (OnClassCondition)
+
+   ServletWebServerConfiguration#forwardedHeaderFilter:
+      Did not match:
+         - @ConditionalOnProperty (server.forward-headers-strategy=framework) did not find property 'server.forward-headers-strategy' (OnPropertyCondition)
+
+   SpringApplicationAdminJmxAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBooleanProperty (spring.application.admin.enabled=true) did not find property 'spring.application.admin.enabled' (OnPropertyCondition)
+
+   TaskExecutorConfigurations.AsyncConfigurerWrapperConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.scheduling.annotation.AsyncConfigurer; SearchStrategy: all) did not find any beans of type org.springframework.scheduling.annotation.AsyncConfigurer (OnBeanCondition)
+
+   TaskExecutorConfigurations.SimpleAsyncTaskExecutorBuilderConfiguration#simpleAsyncTaskExecutorBuilderVirtualThreads:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.boot.task.SimpleAsyncTaskExecutorBuilder; SearchStrategy: all) found beans of type 'org.springframework.boot.task.SimpleAsyncTaskExecutorBuilder' simpleAsyncTaskExecutorBuilder (OnBeanCondition)
+
+   TaskExecutorConfigurations.TaskExecutorConfiguration#applicationTaskExecutorVirtualThreads:
+      Did not match:
+         - @ConditionalOnThreading did not find VIRTUAL (OnThreadingCondition)
+
+   TaskSchedulingAutoConfiguration#scheduledBeanLazyInitializationExcludeFilter:
+      Did not match:
+         - @ConditionalOnBean (names: org.springframework.scheduling.config.internalScheduledAnnotationProcessor; SearchStrategy: all) did not find any beans named org.springframework.scheduling.config.internalScheduledAnnotationProcessor (OnBeanCondition)
+
+   TaskSchedulingConfigurations.SimpleAsyncTaskSchedulerBuilderConfiguration#simpleAsyncTaskSchedulerBuilderVirtualThreads:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.boot.task.SimpleAsyncTaskSchedulerBuilder; SearchStrategy: all) found beans of type 'org.springframework.boot.task.SimpleAsyncTaskSchedulerBuilder' simpleAsyncTaskSchedulerBuilder (OnBeanCondition)
+
+   TaskSchedulingConfigurations.TaskSchedulerConfiguration:
+      Did not match:
+         - @ConditionalOnBean (names: org.springframework.scheduling.config.internalScheduledAnnotationProcessor; SearchStrategy: all) did not find any beans named org.springframework.scheduling.config.internalScheduledAnnotationProcessor (OnBeanCondition)
+
+   TemplateEngineConfigurations.ReactiveTemplateEngineConfiguration:
+      Did not match:
+         - did not find reactive web application classes (OnWebApplicationCondition)
+
+   ThymeleafAutoConfiguration.DataAttributeDialectConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.github.mxab.thymeleaf.extras.dataattribute.dialect.DataAttributeDialect' (OnClassCondition)
+
+   ThymeleafAutoConfiguration.ThymeleafSecurityDialectConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.thymeleaf.extras.springsecurity6.dialect.SpringSecurityDialect', 'org.springframework.security.web.server.csrf.CsrfToken' (OnClassCondition)
+
+   ThymeleafAutoConfiguration.ThymeleafWebFluxConfiguration:
+      Did not match:
+         - did not find reactive web application classes (OnWebApplicationCondition)
+
+   ThymeleafAutoConfiguration.ThymeleafWebLayoutConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'nz.net.ultraq.thymeleaf.layoutdialect.LayoutDialect' (OnClassCondition)
+
+   ThymeleafAutoConfiguration.ThymeleafWebMvcConfiguration#resourceUrlEncodingFilter:
+      Did not match:
+         - @ConditionalOnEnabledResourceChain did not find class org.webjars.WebJarVersionLocator (OnEnabledResourceChainCondition)
+
+   TomcatMetricsAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.micrometer.core.instrument.binder.tomcat.TomcatMetrics' (OnClassCondition)
+
+   TomcatReactiveManagementContextAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextFactory' (OnClassCondition)
+
+   TomcatReactiveWebServerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnWebApplication did not find reactive web application classes (OnWebApplicationCondition)
+
+   TomcatServletManagementContextAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextFactory' (OnClassCondition)
+
+   TomcatServletWebServerAutoConfiguration#tomcatForwardedHeaderFilterCustomizer:
+      Did not match:
+         - @ConditionalOnProperty (server.forward-headers-strategy=framework) did not find property 'server.forward-headers-strategy' (OnPropertyCondition)
+
+   TomcatWebServerConfiguration#tomcatVirtualThreadsProtocolHandlerCustomizer:
+      Did not match:
+         - @ConditionalOnThreading did not find VIRTUAL (OnThreadingCondition)
+
+   WebMvcAutoConfiguration#hiddenHttpMethodFilter:
+      Did not match:
+         - @ConditionalOnBooleanProperty (spring.mvc.hiddenmethod.filter.enabled=true) did not find property 'spring.mvc.hiddenmethod.filter.enabled' (OnPropertyCondition)
+
+   WebMvcAutoConfiguration.ProblemDetailsErrorHandlingConfiguration:
+      Did not match:
+         - @ConditionalOnBooleanProperty (spring.mvc.problemdetails.enabled=true) did not find property 'spring.mvc.problemdetails.enabled' (OnPropertyCondition)
+
+   WebMvcAutoConfiguration.ResourceChainCustomizerConfiguration:
+      Did not match:
+         - @ConditionalOnEnabledResourceChain did not find class org.webjars.WebJarVersionLocator (OnEnabledResourceChainCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#beanNameViewResolver:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.BeanNameViewResolver; SearchStrategy: all) found beans of type 'org.springframework.web.servlet.view.BeanNameViewResolver' beanNameViewResolver (OnBeanCondition)
+
+   WebMvcHealthEndpointExtensionAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.boot.health.actuate.endpoint.HealthEndpoint' (OnClassCondition)
+
+   WebMvcMappingsAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.boot.actuate.autoconfigure.endpoint.condition.ConditionalOnAvailableEndpoint' (OnClassCondition)
+
+   WebMvcObservationAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.boot.micrometer.observation.autoconfigure.ObservationProperties' (OnClassCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+
+    org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration
+
+    org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration
+
+    org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+
+    org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration
+
+    org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+
+
+
+2026-01-28T09:56:35.942-06:00  INFO 41605 --- [thymeleaf] [           main] es.etg.daw.dawes.thym.ThymApplication    : Started ThymApplication in 2.475 seconds (process running for 2.906)
+2026-01-28T09:56:35.943-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2026-01-28T09:56:35.944-06:00 DEBUG 41605 --- [thymeleaf] [           main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2026-01-28T09:57:03.273-06:00  INFO 41605 --- [thymeleaf] [nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-28T09:57:03.273-06:00  INFO 41605 --- [thymeleaf] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-28T09:57:03.273-06:00 DEBUG 41605 --- [thymeleaf] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2026-01-28T09:57:03.275-06:00 DEBUG 41605 --- [thymeleaf] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2026-01-28T09:57:03.276-06:00 DEBUG 41605 --- [thymeleaf] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@658a98fc
+2026-01-28T09:57:03.277-06:00 DEBUG 41605 --- [thymeleaf] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@24a50406
+2026-01-28T09:57:03.283-06:00 DEBUG 41605 --- [thymeleaf] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-01-28T09:57:03.289-06:00  INFO 41605 --- [thymeleaf] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2026-01-28T09:57:03.306-06:00 DEBUG 41605 --- [thymeleaf] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/web/productos", parameters={}
+2026-01-28T09:57:03.325-06:00 DEBUG 41605 --- [thymeleaf] [nio-8082-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to es.etg.daw.dawes.thym.productos.infraestructure.web.ProductoViewController#listar(Model)
+2026-01-28T09:57:03.512-06:00 DEBUG 41605 --- [thymeleaf] [nio-8082-exec-1] o.s.web.client.DefaultRestClient         : Reading to [java.util.List<es.etg.daw.dawes.thym.productos.infraestructure.api.dto.ProductoResponse>]
+2026-01-28T09:57:03.618-06:00 DEBUG 41605 --- [thymeleaf] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Failed to complete request: org.springframework.web.client.RestClientException: Error while extracting response for type [java.util.List<es.etg.daw.dawes.thym.productos.infraestructure.api.dto.ProductoResponse>] and content type [application/json]
+2026-01-28T09:57:03.623-06:00 ERROR 41605 --- [thymeleaf] [nio-8082-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.client.RestClientException: Error while extracting response for type [java.util.List<es.etg.daw.dawes.thym.productos.infraestructure.api.dto.ProductoResponse>] and content type [application/json]] with root cause
+
+tools.jackson.databind.exc.MismatchedInputException: Cannot map `null` into type `int` (set DeserializationConfig.DeserializationFeature.FAIL_ON_NULL_FOR_PRIMITIVES to 'false' to allow)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #105] (through reference chain: java.util.ArrayList[0]->es.etg.daw.dawes.thym.productos.infraestructure.api.dto.ProductoResponse["categoriaId"])
+	at tools.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:67) ~[jackson-databind-3.0.4.jar:3.0.4]
+	at tools.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1794) ~[jackson-databind-3.0.4.jar:3.0.4]
+	at tools.jackson.databind.deser.jdk.NumberDeserializers$PrimitiveOrWrapperDeserializer.getNullValue(NumberDeserializers.java:167) ~[jackson-databind-3.0.4.jar:3.0.4]
+	at tools.jackson.databind.ValueDeserializer.getAbsentValue(ValueDeserializer.java:384) ~[jackson-databind-3.0.4.jar:3.0.4]
+	at tools.jackson.databind.deser.bean.PropertyValueBuffer._findMissing(PropertyValueBuffer.java:299) ~[jackson-databind-3.0.4.jar:3.0.4]
+	at tools.jackson.databind.deser.bean.PropertyValueBuffer.getParameters(PropertyValueBuffer.java:214) ~[jackson-databind-3.0.4.jar:3.0.4]
+	at tools.jackson.databind.deser.ValueInstantiator.createFromObjectWith(ValueInstantiator.java:271) ~[jackson-databind-3.0.4.jar:3.0.4]
+	at tools.jackson.databind.deser.bean.PropertyBasedCreator.build(PropertyBasedCreator.java:271) ~[jackson-databind-3.0.4.jar:3.0.4]
+	at tools.jackson.databind.deser.bean.BeanDeserializer._deserializeUsingPropertyBased(BeanDeserializer.java:703) ~[jackson-databind-3.0.4.jar:3.0.4]
+	at tools.jackson.databind.deser.bean.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1417) ~[jackson-databind-3.0.4.jar:3.0.4]
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:480) ~[jackson-databind-3.0.4.jar:3.0.4]
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:200) ~[jackson-databind-3.0.4.jar:3.0.4]
+	at tools.jackson.databind.deser.jdk.CollectionDeserializer._deserializeNoNullChecks(CollectionDeserializer.java:493) ~[jackson-databind-3.0.4.jar:3.0.4]
+	at tools.jackson.databind.deser.jdk.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:348) ~[jackson-databind-3.0.4.jar:3.0.4]
+	at tools.jackson.databind.deser.jdk.CollectionDeserializer.deserialize(CollectionDeserializer.java:238) ~[jackson-databind-3.0.4.jar:3.0.4]
+	at tools.jackson.databind.deser.jdk.CollectionDeserializer.deserialize(CollectionDeserializer.java:29) ~[jackson-databind-3.0.4.jar:3.0.4]
+	at tools.jackson.databind.deser.DeserializationContextExt.readRootValue(DeserializationContextExt.java:265) ~[jackson-databind-3.0.4.jar:3.0.4]
+	at tools.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:1646) ~[jackson-databind-3.0.4.jar:3.0.4]
+	at tools.jackson.databind.ObjectReader.readValue(ObjectReader.java:1171) ~[jackson-databind-3.0.4.jar:3.0.4]
+	at org.springframework.http.converter.AbstractJacksonHttpMessageConverter.readJavaType(AbstractJacksonHttpMessageConverter.java:352) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.http.converter.AbstractJacksonHttpMessageConverter.read(AbstractJacksonHttpMessageConverter.java:319) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.client.DefaultRestClient.readWithMessageConverters(DefaultRestClient.java:245) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.readBody(DefaultRestClient.java:903) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.lambda$body$1(DefaultRestClient.java:826) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:612) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchange(DefaultRestClient.java:567) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.client.RestClient$RequestHeadersSpec.exchange(RestClient.java:750) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.executeAndExtract(DefaultRestClient.java:896) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.body(DefaultRestClient.java:826) ~[spring-web-7.0.3.jar:7.0.3]
+	at es.etg.daw.dawes.thym.productos.infraestructure.api.RestClientProductoAdapter.getAll(RestClientProductoAdapter.java:27) ~[classes/:na]
+	at es.etg.daw.dawes.thym.productos.application.usecase.FindProductoUseCase.findAll(FindProductoUseCase.java:18) ~[classes/:na]
+	at es.etg.daw.dawes.thym.productos.application.service.FindProductoService.findAll(FindProductoService.java:18) ~[classes/:na]
+	at es.etg.daw.dawes.thym.productos.infraestructure.web.ProductoViewController.listar(ProductoViewController.java:30) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-11.0.15.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.3.jar:7.0.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.15.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.3.jar:7.0.3]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.15.jar:11.0.15]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-01-28T09:57:03.633-06:00 DEBUG 41605 --- [thymeleaf] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2026-01-28T09:57:03.636-06:00 DEBUG 41605 --- [thymeleaf] [nio-8082-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.webmvc.autoconfigure.error.BasicErrorController#error(HttpServletRequest)
+2026-01-28T09:57:03.651-06:00 DEBUG 41605 --- [thymeleaf] [nio-8082-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-01-28T09:57:03.655-06:00 DEBUG 41605 --- [thymeleaf] [nio-8082-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jan 28 09:57:03 CST 2026, status=500, error=Internal Server Error, path=/web/producto (truncated)...]
+2026-01-28T09:57:03.694-06:00 DEBUG 41605 --- [thymeleaf] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 500

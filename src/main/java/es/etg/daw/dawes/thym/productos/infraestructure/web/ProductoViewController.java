@@ -46,10 +46,9 @@ public class ProductoViewController {
     @PostMapping(WebRoutes.PRODUCTOS_NUEVO)
     public String crearProducto(@RequestParam String nombre,
             @RequestParam double precio,
-            @RequestParam(defaultValue = "1") int categoriaId,
             Model model){
             
-            createProductoService.createProducto(new CreateProductoCommand(nombre, precio, categoriaId));
+            createProductoService.createProducto(new CreateProductoCommand(nombre, precio));
         
         return ThymView.PRODUCT_CREATED.getPath();
     }

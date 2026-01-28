@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import es.etg.daw.dawes.thym.productos.domain.model.Producto;
+import es.etg.daw.dawes.thym.productos.infraestructure.api.dto.ProductoRequest;
 import es.etg.daw.dawes.thym.productos.infraestructure.api.dto.ProductoResponse;
 
 public class ProductoMapper {
@@ -16,7 +17,11 @@ public class ProductoMapper {
         return lp;
     }
 
+    public static ProductoRequest toRequest(Producto producto){
+        return new ProductoRequest(producto.getNombre(), producto.getPrecio(), producto.getCategoria());
+    }
+
     public static Producto toDomain(ProductoResponse p){
-        return new Producto(p.getId(), p.getNombre(), p.getPrecio(), p.getCategoriaId());
+        return new Producto(p.getId(), p.getNombre(), p.getPrecio(), p.getCategoria());
     }
 }

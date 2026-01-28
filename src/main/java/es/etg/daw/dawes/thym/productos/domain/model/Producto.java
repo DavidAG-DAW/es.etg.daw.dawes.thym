@@ -13,10 +13,6 @@ public class Producto {
     private Integer id;
     private String nombre;
     private Double precio;
-    private int categoriaId;
-
-
-
-
+    private Integer categoria;
 }
 

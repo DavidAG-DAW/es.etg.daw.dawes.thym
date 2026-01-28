@@ -12,5 +12,4 @@ public class CreateProductoCommand {
     
     private final String nombre;
     private final double precio;
-    private final int  categoriaId;
 }
