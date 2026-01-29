@@ -12,6 +12,5 @@ public class ProductoResponse {
     private Integer id;
     private String nombre;
     private Double precio;
-    private Integer categoria;
 }
 

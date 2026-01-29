@@ -54,7 +54,7 @@ public class ProductoViewController {
     // Este método crea el producto y devuelve la vista del mensaje de creado
     @PostMapping(WebRoutes.PRODUCTOS_NUEVO)
     public String crearProducto(@RequestParam String nombre,
-            @RequestParam double precio,
+            @RequestParam Double precio,
             Model model){
             
             createProductoService.createProducto(new CreateProductoCommand(nombre, precio));

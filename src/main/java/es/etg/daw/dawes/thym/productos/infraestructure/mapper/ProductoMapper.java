@@ -18,10 +18,11 @@ public class ProductoMapper {
     }
 
     public static ProductoRequest toRequest(Producto producto){
-        return new ProductoRequest(producto.getNombre(), producto.getPrecio(), producto.getCategoria());
+        return new ProductoRequest(producto.getNombre(), producto.getPrecio());
+    
     }
 
     public static Producto toDomain(ProductoResponse p){
-        return new Producto(p.getId(), p.getNombre(), p.getPrecio(), p.getCategoria());
+        return new Producto(p.getId(), p.getNombre(), p.getPrecio());
     }
 }

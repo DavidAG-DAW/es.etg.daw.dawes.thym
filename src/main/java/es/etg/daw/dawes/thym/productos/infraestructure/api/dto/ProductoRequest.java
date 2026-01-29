@@ -10,5 +10,4 @@ import lombok.NoArgsConstructor;
 public class ProductoRequest{
     private String nombre;
     private Double precio;
-    private Integer categoria;
 }
