@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
@@ -9,6 +10,10 @@
     <h1>LISTADO DE PRODUCTOS</h1>
     <div class="table-container">
         <a th:href="@{/web/productos/nuevo}">Crear Nuevo</a>
+
+        <a th:href="@{/web/productos/pdf}">
+            <img th:src="@{/images/archivo-pdf.png}" alt="Exportar a Pdf" width="50">
+        </a>
         
         <table id="tablaProductos">
             <thead>
@@ -19,6 +24,7 @@
                 </tr>
             </thead>
             <tbody id="cuerpoTabla">
+                <!-- Para cada elemento p de la lista de productos (que metimos en el modelo del controlador con el nombre "productos")-->
                 <tr th:each="p : ${productos}">
                     <td th:text="${p.id}">1</td>
                     <td th:text="${p.nombre}">Producto Ejemplo</td>

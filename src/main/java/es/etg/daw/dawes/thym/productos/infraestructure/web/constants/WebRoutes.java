@@ -8,5 +8,3 @@ public interface WebRoutes {
     public static final String PRODUCTOS_PDF = "/web/productos/pdf";
     public static final String PRODUCTOS_NUEVO = "/web/productos/nuevo";
 }
-
-
