@@ -16,6 +16,7 @@ import com.openhtmltopdf.pdfboxout.PdfRendererBuilder;
 import es.etg.daw.dawes.thym.productos.application.command.CreateProductoCommand;
 import es.etg.daw.dawes.thym.productos.application.service.CreateProductoService;
 import es.etg.daw.dawes.thym.productos.application.service.FindProductoService;
+import es.etg.daw.dawes.thym.productos.domain.model.CategoriaId;
 import es.etg.daw.dawes.thym.productos.domain.model.Producto;
 import es.etg.daw.dawes.thym.productos.infraestructure.web.constants.WebRoutes;
 import es.etg.daw.dawes.thym.productos.infraestructure.web.enums.ModelAttribute;
@@ -52,12 +53,15 @@ public class ProductoViewController {
     }
 
     // Este método crea el producto y devuelve la vista del mensaje de creado
-    @PostMapping(WebRoutes.PRODUCTOS_NUEVO)
+     @PostMapping(WebRoutes.PRODUCTOS_NUEVO)
     public String crearProducto(@RequestParam String nombre,
-                            @RequestParam Double precio,
-                            Model model) {
-    createProductoService.createProducto(new CreateProductoCommand(nombre, precio));
-    return ThymView.PRODUCT_CREATED.getPath();
+            @RequestParam double precio,
+            @RequestParam(defaultValue = "1") int categoriaId,
+            Model model) {
+
+        createProductoService.createProducto(new CreateProductoCommand(nombre, precio, new CategoriaId(categoriaId)));
+
+        return ThymView.PRODUCT_CREATED.getPath();
     }
 
 
