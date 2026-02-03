@@ -54,13 +54,13 @@ public class ProductoViewController {
     // Este método crea el producto y devuelve la vista del mensaje de creado
     @PostMapping(WebRoutes.PRODUCTOS_NUEVO)
     public String crearProducto(@RequestParam String nombre,
-            @RequestParam Double precio,
-            Model model){
-            
-            createProductoService.createProducto(new CreateProductoCommand(nombre, precio));
-        
-        return ThymView.PRODUCT_CREATED.getPath();
+                            @RequestParam Double precio,
+                            Model model) {
+    createProductoService.createProducto(new CreateProductoCommand(nombre, precio));
+    return ThymView.PRODUCT_CREATED.getPath();
     }
+
+
 
     //Listado de Productos http://localhost:8082/web/productos/pdf
     @GetMapping(WebRoutes.PRODUCTOS_PDF)
