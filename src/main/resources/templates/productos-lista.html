@@ -1,79 +1,40 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Listado de Productos</title>
+    <title th:text="#{product.list.page.title}">Listado de Productos</title>
     <link rel="stylesheet" type="text/css" th:href="@{/css/estilos.css}">
-      <style>
-        body {
-            background-color: #121212; /* Fondo oscuro profundo */
-            color: #eeeeee;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            padding: 40px;
-        }
-        h1 {
-            color: #ffcc00; /* Amarillo dorado */
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            border-left: 5px solid #ffcc00;
-            padding-left: 15px;
-        }
-        .table-container {
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-            border: 1px solid #333;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            background-color: #1e1e1e;
-        }
-
-        thead {
-            background-color: #ffcc00;
-        }
-
-        th {
-            color: #000; /* Texto negro sobre fondo amarillo */
-            padding: 15px;
-            text-transform: uppercase;
-            font-size: 0.9rem;
-            font-weight: bold;
-            text-align: left;
-        }
-        td {
-            padding: 12px 15px;
-            border-bottom: 1px solid #333;
-            color: #ccc;
-        }
-        td:first-child {
-            color: #ffcc00;
-            font-weight: bold;
-        }
-    </style>
 </head>
 <body>
-    <h1>LISTADO DE PRODUCTOS</h1>
+      <div class="language-selector">
+        <a th:href="@{/web/productos(lang=es)}">🇪🇸</a> | 
+        <a th:href="@{/web/productos(lang=en)}">🇬🇧</a> | 
+        <a th:href="@{/web/productos(lang=ar)}">🇲🇦</a> | 
+        <a th:href="@{/web/productos(lang=de)}">🇩🇪</a>
+    </div>
+
+    <hr>
+    <h1 th:text="#{product.list.title}">LISTADO DE PRODUCTOS</h1>
+    
     <div class="table-container">
-        <a th:href="@{/web/productos/nuevo}">Crear Nuevo</a>
+        <a th:href="@{/web/productos/nuevo}" th:text="#{generic.link.create}">Crear Nuevo</a>
 
         <a th:href="@{/web/productos/pdf}">
-            <img th:src="@{/images/archivo-pdf.png}" alt="Exportar a Pdf" width="50">
+            <img th:src="@{/images/archivo-pdf.png}" 
+                 th:alt="#{generic.link.export.pdf}" 
+                 th:title="#{generic.link.export.pdf}" 
+                 width="50">
         </a>
         
         <table id="tablaProductos">
             <thead>
                 <tr>
-                    <th>ID</th>
-                    <th>Nombre</th>
-                    <th>Precio</th>
+                    <th th:text="#{product.table.header.id}">ID</th>
+                    <th th:text="#{product.table.header.name}">Nombre</th>
+                    <th th:text="#{product.table.header.price}">Precio</th>
                 </tr>
             </thead>
             <tbody id="cuerpoTabla">
-                <!-- Para cada elemento p de la lista de productos (que metimos en el modelo del controlador con el nombre "productos")-->
                 <tr th:each="p : ${productos}">
                     <td th:text="${p.id}">1</td>
                     <td th:text="${p.nombre}">Producto Ejemplo</td>

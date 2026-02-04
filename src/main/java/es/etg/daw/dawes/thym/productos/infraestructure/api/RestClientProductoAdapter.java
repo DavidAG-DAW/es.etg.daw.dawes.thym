@@ -1,5 +1,6 @@
 package es.etg.daw.dawes.thym.productos.infraestructure.api;
 
+
 import java.util.List;
 import java.util.Optional;
 
@@ -15,7 +16,6 @@ import es.etg.daw.dawes.thym.productos.infraestructure.api.dto.ProductoRequest;
 import es.etg.daw.dawes.thym.productos.infraestructure.api.dto.ProductoResponse;
 import es.etg.daw.dawes.thym.productos.infraestructure.mapper.ProductoMapper;
 import lombok.AllArgsConstructor;
-import tools.jackson.core.JacksonException;
 import tools.jackson.databind.ObjectMapper;
 
 @Component
@@ -36,26 +36,27 @@ public class RestClientProductoAdapter implements ProductoRepository {
     public Producto save(Producto t) {
 
         try {
-            ProductoRequest request = ProductoMapper.toRequest(t);
-            System.out.println(
-                    "JSON ENVIADO: " +
-                            new ObjectMapper().writeValueAsString(request));
+        ProductoRequest request = ProductoMapper.toRequest(t);
 
-            ProductoRequest nuevo = ProductoMapper.toRequest(t);
+        System.out.println(
+            "JSON ENVIADO: " +
+            new ObjectMapper().writeValueAsString(request)
+        );
 
-            ProductoResponse respuesta = restClient.post()
-                    .contentType(MediaType.APPLICATION_JSON) // Le mandamos un Json
-                    .body(nuevo) // Los datos de producto a crear
-                    .retrieve() // Obtenermos los datos
-                    .body(new ParameterizedTypeReference<ProductoResponse>() {
-                    }); // Los pasamos a una respuesta de tipo Producto
+        ProductoRequest nuevo = ProductoMapper.toRequest(t);
 
-            return ProductoMapper.toDomain(respuesta);
+        ProductoResponse respuesta = restClient.post()
+                                        .contentType(MediaType.APPLICATION_JSON) //Le mandamos un Json
+                                        .body(nuevo) //Los datos de producto a crear
+                                        .retrieve() //Obtenermos los datos
+                                        .body(new ParameterizedTypeReference<ProductoResponse>(){}) ; //Los pasamos a una respuesta de tipo Producto
 
-        } catch (JacksonException e) {
-            e.printStackTrace();
-            throw e;
-        }
+        return ProductoMapper.toDomain(respuesta);
+
+        } catch (Exception e) {
+        e.printStackTrace();
+        throw e;
+    }
     }
 
     @Override

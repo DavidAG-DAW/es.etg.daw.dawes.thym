@@ -9,6 +9,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class ProductoRequest{
     private String nombre;
-    private Double precio;
+    private double precio;
     private int categoriaId;
 }
